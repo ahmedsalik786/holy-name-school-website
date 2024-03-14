@@ -1,0 +1,9 @@
+/* Add this to your global CSS file if you haven't defined the @keyframes there */
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
